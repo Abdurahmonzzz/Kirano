@@ -221,7 +221,6 @@ grid-row-end: 8;
     box-sizing: border-box;
     width: 73%;
     float: left;
-    min-height: 1500px;
     padding: 20px;
     border-right: 1px solid #b3b3b3;
 }
@@ -448,23 +447,19 @@ grid-row-end: 8;
 }
 .messenger {
     margin: 1em auto;
-}
-.messenger div{
     width: 100%;
-    margin-top: 40px;
 }
-.messenger div a {
+
+.messenger a {
     font-family: sans-serif;
     line-height: 1;
-    padding: 0.5em 3.5em 0.5em 3.5em;
     color: white;
     font-size: 20pt;
     min-width: 1em;
     text-align: center;
     text-decoration: none;
-    transition: opacity .2s ease-in-out;
-    margin-left: .5em;
-
+    display: flex;
+    margin: 20px 0px 0px 20px;
 }
 .messenger [class*=telegram] {
     background: rgb(52, 155, 233);
@@ -472,9 +467,11 @@ grid-row-end: 8;
 }
 .messenger [class*=instagram] {
     background: rgb(191, 39, 45);
+    padding: 0.5em 3.6em 0.5em 3.7em;
 }
 .messenger [class*=facebook] {
     background: #3b5998;
+    padding: 0.5em 3.6em 0.5em 3.7em;
 }
 .calendar {
     border-collapse: collapse;

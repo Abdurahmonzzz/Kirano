@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 17" width="11" height="17">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<g id="SLIDER">
+		<g id="Кнопка вправо">
+			<path id="Shape 1" class="shp0" d="M9.83 8.61L2.63 2L2 2.77L8.79 9L2 15.23L2.63 16L9.83 9.38C9.94 9.29 10 9.15 10 9C10 8.85 9.94 8.71 9.83 8.61Z" />
+		</g>
+	</g>
+</svg>
