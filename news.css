@@ -101,13 +101,11 @@ span{
     text-align: center;
     margin-top: 20px;
     width: 100%;
+    height: 40px;
+    display: flex;
 }
-.express_icon_box{
-    display: inline-block;
-    width: 10%;
-}
+
 .express_icon{
-    display: inline-block;
     height: 40px;
     width: 44px;
     background-color: rgb(61, 176, 238);
@@ -115,23 +113,27 @@ span{
     background-size: 50px 40px;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
 }
-
 .express_text{
     display: inline-block;
-    height: 40px;
     width: 90%;
     font-size: 2vw;
     border: 1px solid black;
+    position: relative;
 }
 
 .express_icon2{
-    display: inline-block;
-    height: 40px;
-    width: 50px;
+    display: flex;
+    height: 17px;
+    width: 17px;
     background-image: url(icons/Desktop/005-right.svg);
     background-size: 17px;
     background-repeat: no-repeat;
+    position: absolute;
+    right: 1.7rem;
+    cursor: pointer;
+    margin-top: -15px;
 }
 
 .img_news{
@@ -437,7 +439,6 @@ grid-row-end: 8;
     font-size: 20px;
     text-align: center;
     border-bottom: 0.5px solid rgb(61, 176, 238);
-    margin-bottom: 20px;
 }
 .panel_header:last-child{
     margin-top: 55px;
